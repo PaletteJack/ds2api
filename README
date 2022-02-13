@@ -1,0 +1,13 @@
+ds2api. used web fextralife web scraper to get spells and shields. added those into the database and exported to API on heroku.
+
+read only, no delete or update methods available.
+
+send GET requests to: https://calm-inlet-73714.herokuapp.com/
+
+paths for GET requests for /category. categories are /weapons, /spells, and /shields.
+
+At the moment you can only filter by type of and by name of. the paths for doing so are /category/type/weaponType or /category/name/weaponName
+
+for example - /weapons/type/dagger to get all dagger class weapons. /weapons/name/dagger to retrieve weapon with the name of dagger.
+
+visit root to view all categories currently available to filter by.

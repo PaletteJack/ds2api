@@ -1,9 +1,5 @@
 ds2api. used web fextralife web scraper to get spells and shields. added those into the database and exported to API on heroku.
 
-read only, no delete or update methods available.
-
-send GET requests to: https://ds2api.palettejack.me
-
 paths for GET requests are: /category. categories are /weapons, /spells, and /shields.
 
 At the moment you can only filter by type of and by name of. the paths for doing so are /category/type/weaponType or /category/name/weaponName
